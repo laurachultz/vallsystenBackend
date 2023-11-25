@@ -29,6 +29,6 @@ O Framework escolhido para uso foi o FastAPI, projetado para desenvolvimento rá
  
 - ***PDO – Banco de Dados: MySQL***
  
-Em nosso Backend, utilizamos o ODP (PHP Data Object) é uma extensão da linguagem PHP para acesso a banco de dados. Totalmente orientado a objetos ele possui diversos recursos importantes, além de suporte a diversos mecanismos de banco de dadoso MySQL.
+Em nosso Backend, utilizamos o PDO (PHP Data Object) é uma extensão da linguagem PHP para acesso a banco de dados. Totalmente orientado a objetos ele possui diversos recursos importantes, além de suporte a diversos mecanismos de banco de dadoso MySQL.
  
 Desta forma, facilitando a comunicação entre eles, automatizando a persistência de informações e convertendo os dados de objetos para tabelas, permitindo que as operações CRUD sejam realizadas através da linguagem escolhida.
