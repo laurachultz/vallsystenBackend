@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(to right, #113859, #5997ca), url('../img/school-background.jpg'); /* Updated Gradient + Image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inicio{
+    color: #ffffff;
+    text-align: justify;
+    font-family: Arial;
+    margin-left: 20px;
+    line-height: 150%;
+    margin-top: 5%;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 50px auto;
+}
+
+.data{
+    margin-left: 20px;
+    font-size: medium;
+}
+
+.final{
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial;
+    line-height: 180%;
+    margin-top: 90px;
+    text-transform: uppercase;
+}
+
+.botao{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.agenda{
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.academico{
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial;
+    line-height: 120%;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.turmas{
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.planejamento{
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: medium;
+}
+

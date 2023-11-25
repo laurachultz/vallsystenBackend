@@ -1,0 +1,40 @@
+body{
+    padding: auto;
+    background-color: ghostwhite;
+}
+
+.titulo{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.apresentacao{
+margin-left: 20px;
+margin-right: 140px;
+text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 150%;
+}
+
+.recursos{
+margin-left: 20px;
+margin-right: 140px;
+text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 180%;
+}
+button{
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+width: 10%;
+text-align: center;
+}
+.botao{
+margin-left: 20px;
+margin-right: 140px;
+text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 180%;
+}

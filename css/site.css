@@ -1,0 +1,123 @@
+body{
+    padding: auto;
+    font-family: Arial;
+    background-color: white;
+}
+
+.titulo{
+    font-family: arial; 
+    font-size: larger;
+    background-image: linear-gradient(to left, #85b0fc, #0A93FC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    background-image: linear-gradient(to right, #0f42af, #131313);
+    margin-left: 20px;
+}
+
+.introducao{
+   text-transform: uppercase;
+   line-height: 200%;
+   font-family: Arial;
+   font-size: larger;
+   margin-left: 20px;
+}
+
+.introducao2{
+    color: dimgray;
+    margin-left: 20px;
+    line-height: 150%;
+}
+
+.botaoexperimente{
+    background-color: #113859;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 18%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 20px;
+    border-radius: 5px;
+    line-height: 30px;
+    &:hover{
+        height: 50px;
+        background-color: #265b87;
+        }
+}
+
+.experimente{
+    color: dimgray;
+    margin-left: 20px;
+    line-height: 150%;
+
+}
+
+.informacoes{
+    font-family: Arial;
+    margin-left: 20px;
+    line-height: 150%;
+}
+
+.destaque{
+    font-family: Arial;
+    margin-left: 25%;
+}
+
+.destaque2{
+    font-family: Arial;
+    margin-left: 50%;
+   
+}
+
+.destaque{
+    display: flex; /* Use flexbox para organizar os elementos lado a lado */
+    color: #113859;
+    text-transform: uppercase;
+}
+
+.half{
+    padding: 10px; /* Adicionar um espaçamento interno para melhor legibilidade */
+    text-align: center;
+}
+
+.botoes {
+position: absolute;
+top: 20px;
+right: 20px;
+}
+        
+.button {
+padding: 10px 20px;
+margin: 5px;
+background-color: #113859;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+&:hover{
+    height: 50px;
+    background-color: #265b87;
+    }
+}
+
+.final{
+    font-family: Arial;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    text-align: justify;
+    line-height: 150%;
+  
+}
+
+.img{
+  margin-left: 50px;
+}

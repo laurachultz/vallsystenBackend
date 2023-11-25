@@ -1,0 +1,110 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    color: #113859;
+}
+
+/* Container principal */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1, h2 {
+    text-align: center;
+    color: #113859;
+    font-size: 20px;
+}
+
+/* Estilos do cabeçalho */
+.inicio {
+    background-color: #b5c7d5;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #113859;
+    margin: 0;
+    font-size: 25px;
+}
+
+/* Estilos para tabelas */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #fff;
+}
+
+/* Estilos para formulários e botões */
+form, #calculator, #chamadaForm {
+    margin: 10px 0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input, select {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"], button {
+    background-color: #113859;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; /* Adicione margem inferior para separar os botões em linhas separadas */
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #265b87;
+}
+
+/* Estilos para resultados e frequência */
+#resultado, #frequencia {
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Estilos para a tabela de presença */
+#tabelaPresenca table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+#tabelaPresenca th, #tabelaPresenca td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#tabelaPresenca th {
+    background-color: #fff;
+}

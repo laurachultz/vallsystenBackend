@@ -1,0 +1,31 @@
+body{
+    padding: auto;
+    background-color: white;
+    font-family: Arial;
+}
+
+.titulo{
+    font-family: arial; 
+    font-size: larger;
+    background-image: linear-gradient(to left, #85b0fc, #0A93FC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    background-image: linear-gradient(to right, #0f42af, #131313);
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.recursos{
+    font-family: Arial;
+    margin-left: 20px;
+    margin-right: 140px;
+    line-height: 180%;
+}
+.imgrecursos{
+    image-resolution: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
